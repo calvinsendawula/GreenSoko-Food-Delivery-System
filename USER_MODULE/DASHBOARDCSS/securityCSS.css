@@ -1,0 +1,35 @@
+#updatePasswordBtn{
+  margin-left: 10px;
+  color: #8ac800;
+  background-color: #fff;
+  border: 1px solid #8ac800;
+}
+
+#updatePasswordBtn:hover{
+  color: #fff;
+  background-color: #8ac800;
+}
+
+#forgotPasswordBtn{
+  border: none;
+  margin-left: 10px;
+}
+
+#forgotPasswordBtn:hover{
+  background-color: #fff;
+}
+#updateBtns{
+  margin-left: -10px;
+}
+
+#enable2FABtn{
+  margin: 0 0 10px 0;
+  color: #8ac800;
+  background-color: #fff;
+  border: 1px solid #8ac800;
+}
+
+#enable2FABtn:hover{
+  color: #fff;
+  background-color: #8ac800;
+}

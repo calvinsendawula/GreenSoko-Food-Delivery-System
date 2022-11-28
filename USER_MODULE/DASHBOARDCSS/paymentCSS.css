@@ -1,0 +1,44 @@
+#dashboard-form-2{
+  padding-top: -20px;
+}
+
+#cvv{
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  font-size: 25px;
+  margin-top: 28px;
+  margin-left: -50px;
+}
+
+#cvv text{
+  position: absolute;
+  margin-top: -8.5px;
+  margin-left: -12.5px;
+}
+
+.visa-card{
+  width: 300px;
+  height: 200px;
+  background: url("../imagesDashboard/VISA.png") no-repeat center;
+  border: none;
+}
+
+#visa-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*-----MEDIA SCREEN SETTINGS----*/
+@media screen and (max-width: 768px) {
+  #cvv{
+    margin-left: -30px;
+  }
+
+  #cvv text{
+    margin-top: -8.5px;
+    margin-left: -12.5px;
+  }
+}
